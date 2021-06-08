@@ -1,7 +1,8 @@
-.card {
+.Card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
   margin: 0;
   padding-bottom: 10px;
 
@@ -9,21 +10,21 @@
     margin-top: 10px;
   }
 
-  &.card--variantPrimary {
+  &.Card--variantPrimary {
     background-color: rebeccapurple;
     color: #fff;
   }
 
-  &.card--variantSecondary {
+  &.Card--variantSecondary {
     background-color: pink;
   }
 }
 
-.card-image {
+.Card-image {
   width: 100%;
 }
 
-.card-heading {
+.Card-heading {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
